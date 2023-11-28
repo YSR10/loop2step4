@@ -3,3 +3,49 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #4a4b72;
+}
+main {
+  margin: auto;
+  margin-top: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: baseline;
+}
+.pics {
+  background-color: #353648;
+  width: 5rem;
+  height: 4rem;
+  padding: 1.5rem;
+}
+.pics:hover {
+  background-color: #2c2d38;
+  cursor: pointer;
+}
+.first,
+.last {
+  margin-right: 2.3px;
+}
+.cafe {
+  width: 7rem;
+  height: 5rem;
+  padding-left: 2.1rem;
+  background-color: black;
+}
+.cafe:hover {
+  cursor: pointer;
+  background-color: black;
+}
+.cafe img {
+  width: 2.3rem;
+}
