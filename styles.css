@@ -49,3 +49,57 @@ header {
 .cafe img {
   width: 2.3rem;
 }
+section {
+  background-color: white;
+  width: 20rem;
+  height: 26.1rem;
+  border-radius: 5px;
+}
+
+section img {
+  width: 20rem;
+  border-radius: 5px 0px;
+  height: 10rem;
+}
+
+.foodtext img {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.foodtext {
+  position: absolute;
+  margin-top: -5rem;
+  margin-left: 1.5rem;
+  color: #fcffff;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.location p {
+  font-size: 12px;
+}
+
+.list {
+  display: flex;
+  color: #9f9d9e;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid #9f9d9e;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.bord {
+  border: none;
+}
+
+.list:hover p:nth-child(2) {
+  color: #1f2d3f;
+  transform: scale(1.5);
+  cursor: pointer;
+}
